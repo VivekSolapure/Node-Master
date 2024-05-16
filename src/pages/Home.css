@@ -1,0 +1,66 @@
+body {
+  padding-bottom: 5%;
+}
+
+
+
+
+.home_main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home_container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 72px;
+}
+.home_heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  /* background-color: #b6b5b5; */
+  font-family: "Raleway", sans-serif;
+  gap: 32px;
+  padding-top: 36px;
+}
+.home_headName {
+  font-size: 73.34px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.home_createBtn {
+  width: 309px;
+  height: 60px;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252432;
+  font-weight: bold;
+  transition: 300ms;
+}
+.home_createBtn:hover {
+  background-color: #fff;
+  border: 1px solid #252432;
+  color: #252432;
+  box-sizing: border-box;
+}
+
+.home_seperation {
+  width: 100%;
+  height: fit-content;
+}
+.home_sperationLine {
+  background-color: #252432;
+  height: 1px;
+  width: 100%;
+}
